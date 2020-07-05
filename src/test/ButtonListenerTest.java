@@ -14,6 +14,7 @@ public class ButtonListenerTest {
 	public void testactionPerformed() {
 		int flag = 0;
 		String[] butname = { "开始新游戏", "悔棋", "认输" };
+		//
 		JButton[] button = new JButton[3];
 		for (int i = 0; i < butname.length; i++) {
 			button[i] = new JButton(butname[i]);
